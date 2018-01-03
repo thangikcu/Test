@@ -1,4 +1,4 @@
-package com.example.thanggun99.test.phuongtest;
+package com.example.thanggun99.test2.phuongtest;
 
 import android.util.Log;
 
