@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="default_text">--</string>
+    <string name="hint_target_ip">Target IP</string>
+    <string name="hint_target_port">Target port</string>
+    <string name="label_data_to_target">Stream data to IP</string>
+    <string name="error_invalidaddr">Invalid IP address</string>
+    <string name="error_neterror">Unknown UDP network problem</string>
+    <string name="error_sensorerror">Unknown IMU sensor problem</string>
+    <string name="error_warningwifi">Warning: Not connected to a WIFI network.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="enter_tex">Enter TeX here:</string>
+    <string name="show">Show</string>
+    <string name="clear">Clear</string>
+    <string name="example">Example</string>
+    <string name="defaulturl">CDN</string>
+    <string name="localurl">Local</string>
+    <string name="ok">OK</string>
+    <string name="urltitle">Set MathJax URL</string>
+    <string name="urllabel">Configure</string>
+
+    <string-array name="tex_examples">
+        <item>$\\sqrt {13} – \\sqrt {10} $</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

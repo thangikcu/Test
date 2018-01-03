@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="size"
+        android:inputType="number" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_init"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="initialize" />
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="find" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tv_array"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:isScrollContainer="true"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanggun99.test2.one.BlankFragment">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="UselessParent">
+
+        <AutoCompleteTextView
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+    </FrameLayout>
+
+</FrameLayout>
