@@ -82,9 +82,9 @@
         <activity
             android:name=".one.TestActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".PaymentActivity" />
-        <activity android:name=".PaypalActivity" />
-        <activity android:name=".TestWebViewClickActivity" />
+        <activity android:name=".firebase.PaymentActivity" />
+        <activity android:name=".firebase.PaypalActivity" />
+        <activity android:name=".firebase.TestWebViewClickActivity" />
         <activity android:name=".heartbeat.HeartRateStandard">
 
             <!--
@@ -106,6 +106,13 @@
             -->
         </activity>
         <activity android:name=".textspan.TextSpanActivity">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".api.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -45,7 +45,7 @@ public class TextSpanActivity extends AppCompatActivity {
 
             @SuppressLint("SetTextI18n")
             @Override
-            public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+            public void onBindViewHolder(RecyclerView.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
                 SimpleSpanBuilder simpleSpanBuilder = new SimpleSpanBuilder();
 
                 simpleSpanBuilder.append("thanggun" + position,

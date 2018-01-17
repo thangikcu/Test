@@ -1,4 +1,4 @@
-package com.example.thanggun99.test2;
+package com.example.thanggun99.test2.firebase;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
+import com.example.thanggun99.test2.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.wallet.Cart;

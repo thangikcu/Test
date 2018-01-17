@@ -1,4 +1,4 @@
-package com.example.thanggun99.test2;
+package com.example.thanggun99.test2.firebase;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
+
+import com.example.thanggun99.test2.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

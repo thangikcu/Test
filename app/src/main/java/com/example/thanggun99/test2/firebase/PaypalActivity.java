@@ -1,4 +1,4 @@
-package com.example.thanggun99.test2;
+package com.example.thanggun99.test2.firebase;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.thanggun99.test2.R;
 import com.paypal.android.sdk.payments.*;
 
 import org.json.JSONException;
@@ -52,7 +53,7 @@ public class PaypalActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_paypal);
+        setContentView(com.example.thanggun99.test2.R.layout.activity_paypal);
 
         Intent intent = new Intent(this, PayPalService.class);
         intent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
